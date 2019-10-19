@@ -1,0 +1,226 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    color:#555555;
+    font-family: "メイリオ";
+    background: url('background_building.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    height: 95px;
+    width: 100%;
+    padding: 10px 30px;
+    position:fixed;
+    z-index: 1;
+}
+
+
+
+
+
+.active{
+    background-color: #F0F0F0;
+    color:#555555;
+    border-bottom: .25px solid rgba(0,0,0,.3);
+}
+
+
+
+.header-inner-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.header-inner-wrapper div{
+    height: 75px;
+    line-height: 75px;
+}
+.site-title-wrapper{
+    display: block;
+    margin-left: 17px;
+    width: 20%;
+}
+
+.site-title{
+    font-size: 1.6em;
+    font-family: "游ゴシック";
+    font-weight: 600;
+    color: white;
+    letter-spacing: .3em;
+}
+.menu-wrapper{
+    color: white;
+    width: 80%;
+    display: none;
+}
+.menu{
+    float: right;
+}
+
+
+.top-section{
+    position: relative;
+    height: 100vh;
+}
+
+.copy-wrapper{
+    position: absolute;
+    color: white;
+    left: 12%;
+    bottom: 19%;
+    text-align: center;
+}
+
+.copy-wrapper h1{
+    letter-spacing: .25em;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-family: "メイリオ";
+    z-index: -1;
+}
+
+
+
+
+
+// mid-section
+.mid-section{
+    padding: 30px 40px 125px 40px;
+    background: #F0F0F0;
+}
+
+.service-title{
+    margin: .5em 0em 3em .5em;
+    font-size: 1.7em;
+    letter-spacing: .115em;
+}
+
+.service-contents{
+    padding: 7px 45px;
+    display: flex;
+
+}
+
+.service-description{
+    font-size: .84em;
+    width: 50%;
+    line-height: 1.8em;
+    margin-left: 7%;
+    padding-top: 15px;
+}
+
+.service{
+    margin-left: 6%;
+    padding: 20px;
+}
+
+
+// mid2-section
+.mid2-section{
+    padding: 7.2em;
+    height: 600px;
+    color: white;
+}
+
+.about-us-title{
+    font-size: 1.44em;
+    letter-spacing: .115em;
+    padding-left: 4.13em;
+}
+
+
+.about-us-table{
+    display: table;
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+    table-layout: fixed;
+    font-size: 1.15em;
+}
+
+.about-us-tbdy{
+    display: table-row-group;
+    border-collapse: collapse;
+    letter-spacing: .04em;
+}
+
+.about-us-table tr{
+    display: table-row;
+    height: 44px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.about-us-table td{
+}
+
+.td-title{
+    border-bottom: .4px solid rgba(0,0,0,.3);
+    font-size: 1.01em;
+}
+
+.td-item{
+    font-size: .85em;
+    padding-left: 12px;
+    border-bottom: 1.3em;
+}
+
+
+// footer
+
+footer{
+    height: 90px;
+    padding: 25px;
+    background-color: #F0F0F0;
+}
+
+.footer-wrapper{
+    width: 81%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer-ul-wrapper{
+    align-items: center;
+    width: 100%;
+}
+
+.footer-ul{
+    list-style: none;
+    float: left;
+    font-size: .75em;
+    padding: 0;
+}
+
+.footer-ul li{
+    float: right;
+    margin-right: 14px;
+}
+
+.footer-ul li a{
+    color:#555555;
+}
+
+.copyright{
+    font-size: .8em;
+    float: right;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+

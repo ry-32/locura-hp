@@ -1,0 +1,93 @@
+<main>
+    <section class="top-section">
+        <header>
+            <div class="header-inner-wrapper">
+                <div class="site-title-wrapper">
+                    <a href="/" class="site-title">LOCURA</a>
+                </div>
+                <div class="menu-wrapper">
+                    <div class="menu">menu</div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="copy-wrapper">
+            <h1>音声広告業界のパイオニア</h1>
+        </div>
+    </section>
+    
+    <section class="mid-section">
+        <div>
+            <div class="service-title">事業内容</div>
+            <div class="service-contents">
+                <div class="service">
+                    <%= link_to image_tag("logo.png", width:"270px",height:"72px"),"http://locura.jp/",target: :_blank %>
+                </div>
+                <div class="service-description">
+                    LOCURAは、日本初の音声広告に特化した広告プラットフォーム
+                    です。国内外問わず、Podcastなどの音声メディアで番組をお持ち
+                    の番組主様と、音声メディアへの広告出稿をお考えの企業様を
+                    マッチングし、広告主様には効果のある広告キャンペーンの機会
+                    を、番組主様には番組を収益化する機会を提供しております。
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="mid2-section">
+        <div>
+            <div class="about-us-title">会社概要</div>
+            <table class="about-us-table">
+                <tbody class="about-us-tbdy">
+                    <tr><td class="td-title">会社名</td></tr>
+                    <tr><td class="td-item">合同会社ロクラ</td></tr>
+                    <tr><td class="td-title">代表者</td></tr>
+                    <tr><td class="td-item">粟国竜麻</td></tr>
+                    <tr><td class="td-title">所在地</td></tr>
+                    <tr><td class="td-item">東京都渋谷区渋谷3-1-9 YAZAWAビル3階</td></tr>
+                    <tr><td class="td-title">事業内容</td></tr>
+                    <tr><td class="td-item">音声広告アドプラットフォームLOCURAの運営</td></tr>
+                </tbody>
+            </table>
+        </div>
+        
+    </section>
+    
+    
+    
+    
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-ul-wrapper">
+                <ul class="footer-ul">
+                    <li>
+                        <a href="/contact">お問い合わせ</a>
+                    </li>
+                    <li>
+                        <a href="http://locura.jp" target="blank">運営サービス</a>
+                    </li>
+                </ul>
+                <span class="copyright">© 2019 locura.jp</span>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script>
+        $(function() {
+            $(window).on("scroll", function() {
+                if($(window).scrollTop() > 50) {
+                    $("header").addClass("active");
+                    $(".site-title").css('color','#555555');
+                    $(".menu").css('color','#555555');
+                } else {
+                    //remove the background property so it comes transparent again (defined in your css)
+                   $("header").removeClass("active");
+                   $(".site-title").css('color','white');
+                   $(".menu").css('color','white');
+                }
+            });
+        });
+    </script>
+    
+</main>

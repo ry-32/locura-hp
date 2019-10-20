@@ -25,7 +25,7 @@ production:
   adapter: mysql2
   encoding: utf8
   pool: 5
-  database: locura_app_production
+  database: hp_production
   username: root
   password: Ryry1212!!
   host: 52.197.155.169

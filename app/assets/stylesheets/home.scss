@@ -11,11 +11,16 @@
 body{
     margin: 0;
     color:#555555;
-    font-family: "メイリオ";
+    font-family:　Roboto,Arial,Helvetica,sans-serif;
+
+}
+
+.main-wrapper{
     background: image-url('background_building.jpg') no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    
 }
 
 header{
@@ -133,12 +138,13 @@ header{
 // mid2-section
 .mid2-section{
     padding: 7.2em;
+    letter-spacing: .02em;
     height: 600px;
     color: white;
 }
 
 .about-us-title{
-    font-size: 1.44em;
+    font-size: 1.54em;
     letter-spacing: .115em;
     padding-left: 4.13em;
 }
@@ -170,14 +176,14 @@ header{
 }
 
 .td-title{
-    border-bottom: .4px solid rgba(0,0,0,.3);
-    font-size: 1.01em;
+    // border-bottom: .4px solid rgba(0,0,0,.3);
+    font-size: 1.03em;
 }
 
 .td-item{
     font-size: .85em;
     padding-left: 12px;
-    border-bottom: 1.3em;
+    // border-bottom: 1.3em;
 }
 
 
@@ -226,3 +232,128 @@ footer{
     margin-inline-end: 0px;
 }
 
+
+
+
+
+
+// contact page
+
+.header-section{
+    height: 6em;
+    background-color: #F0F0F0;
+
+}
+
+.contact-header{
+    position: static;
+}
+
+.contact-site-title{
+    color:#555555;
+}
+
+.contact-top-section{
+    height: 26em;
+    margin-bottom: 5em;
+    background: image-url('background_building.jpg') no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contact-section{
+    height: 31em;
+}
+.contact-copy-wrapper{
+    height:100%;
+    position:relative;
+}
+
+.contact-copy-wrapper h1{
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+    color: white;
+}
+
+.contact-wrapper{
+    height: 65%;
+}
+
+
+.contact-form-wrapper{
+    width: 60%;
+    margin: auto;
+}
+
+
+.form-body{
+    width: 40%;
+    margin: auto;
+}
+
+.form-container{
+    display: table-row;  
+}
+
+.form-container label{
+    display: block;
+    font-size: .9em;
+    margin-bottom: .2em;
+}
+
+
+.form-items{
+    width: 60%;
+    margin: auto;
+}
+
+.form-item{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.form-text-field{
+    height: 2em;
+    width: 23em;
+    margin: auto;
+    margin-bottom: 40px;
+    border: .45px solid rgba(0,0,0,.3);
+    border-radius: 4px;
+}
+
+.form-text-area{
+    height: 12em;
+    width: 23em;
+    border: .45px solid rgba(0,0,0,.3);
+    border-radius: 4px;
+    
+}
+
+.form-text{
+    height: 120px;
+}
+
+.form-btn-wrapper{
+    box-sizing: border-box;
+    width: 152px;
+    float: right;
+    margin-top: 2em;
+
+}
+
+.form-btn{
+    background-color: #19BBDD;
+    border: none;
+    height: 33px;
+    width: 55px;
+    color: white;
+    border-radius: 5px;
+    float: right;
+
+}
+
+.form-submit-item{
+    float:right;
+}

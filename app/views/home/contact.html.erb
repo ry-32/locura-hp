@@ -1,0 +1,72 @@
+
+
+<main>
+    
+    <section class="header-section">
+        <header class="contact-header">
+            <div class="header-inner-wrapper">
+                <div class="site-title-wrapper">
+                    <a href="/" class="site-title contact-site-title">LOCURA</a>
+                </div>
+                <div class="menu-wrapper">
+                    <div class="menu">menu</div>
+                </div>
+            </div>
+        </header>
+    </section>
+
+    <section class="contact-top-section">
+        
+        <div class="contact-copy-wrapper">
+            <h1>お問い合わせ</h1>
+        </div>
+    </section>
+    
+    <section class="contact-section">
+        
+        <div class="form-body contact-form-body">
+            <%= form_for(@contact, url: {controller: 'home', action: 'contact_send'}, html: {method: "post"}) do |f| %>
+                <div class="form-items form-contact-items">
+                    <div class="form-name-wrapper form-container">
+                        <%= f.label :name, "名前" , :class => "form-item" %>
+                        <%= f.text_field :name, :class => "form-text-field form-item contact-form" %>
+                    </div>
+                    <div class="form-email-wrapper form-container">
+                        <%= f.label :email, "メール", :class => "form-item" %>
+                        <%= f.text_field :email, :class => "form-text-field form-item contact-form"  %>    
+                    </div>
+                    <div class="form-content-wrapper form-container">
+                        <%= f.label :content, "内容", :class => "form-item" %>
+                        <%= f.text_area :content, :class => "form-text-area form-item contact-form-content contact-form"  %>    
+                    </div>
+                    <div class="form-btn-wrapper pro-form-btn-wrapper">
+                        <%= f.submit "保存", :class => "form-btn btn" %>
+                    </div>
+                </div>
+            <% end %>
+        </div>
+        
+        
+        
+        
+    </section>
+    
+    
+    
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-ul-wrapper">
+                <ul class="footer-ul">
+                    <li>
+                        <a href="/contact">お問い合わせ</a>
+                    </li>
+                    <li>
+                        <a href="http://locura.jp" target="blank">運営サービス</a>
+                    </li>
+                </ul>
+                <span class="copyright">© 2019 locura.jp</span>
+            </div>
+        </div>
+    </footer>
+    
+</main>

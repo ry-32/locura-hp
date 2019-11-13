@@ -153,14 +153,15 @@ header{
 .about-us-title{
     font-size: 1.54em;
     letter-spacing: .115em;
-    padding-left: 4.13em;
+    margin-bottom: .8%;
+    padding-left: 26%;
 }
 
 
 .about-us-table{
     display: table;
     border-collapse: collapse;
-    width: 60%;
+    width: auto;
     margin: auto;
     table-layout: fixed;
     font-size: 1.15em;
@@ -188,9 +189,8 @@ header{
 }
 
 .td-item{
-    font-size: .85em;
-    padding-left: 12px;
-    // border-bottom: 1.3em;
+    font-size: .82em;
+    padding-left: 17px;
 }
 
 

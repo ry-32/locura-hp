@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+input[type="submit"] {
+    -webkit-appearance: none;
+}
+
 body{
     margin: 0;
     color:#555555;

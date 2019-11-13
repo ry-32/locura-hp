@@ -366,3 +366,365 @@ footer{
 .form-submit-item{
     float:right;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width:480px){
+    
+    .main-wrapper{
+        background: image-url('background_building.jpg') no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    
+    }
+    
+    header{
+        height: 95px;
+        width: 100%;
+        padding: 0;
+        position:fixed;
+        z-index: 1;
+    }
+    
+    
+    .active{
+        background-color: #F0F0F0;
+        color:#555555;
+        border-bottom: .25px solid rgba(0,0,0,.3);
+    }
+    
+    .header-inner-wrapper{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        position: relative;
+    }
+    
+    .header-inner-wrapper div{
+        height: 100%;
+        line-height: 95px;
+    }
+    .site-title-wrapper{
+        display: block;
+        margin-left: 17px;
+        width: 20%;
+    }
+    
+    .site-title{
+        font-size: 1.4em;
+        font-family: "游ゴシック";
+        font-weight: 600;
+        color: white;
+        letter-spacing: .3em;
+    }
+    .menu-wrapper{
+        color: white;
+        width: 80%;
+        display: none;
+    }
+    .menu{
+        float: right;
+    }
+    
+    
+    .top-section{
+        position: relative;
+        height: 100vh;
+    }
+    
+    .copy-wrapper{
+        position: absolute;
+        color: white;
+        left: 7%;
+        bottom: 19%;
+        text-align: center;
+    }
+    
+    .copy-wrapper h1{
+        letter-spacing: .25em;
+        font-size: 2.2em;
+        font-weight: normal;
+        font-family: 游明朝,"メイリオ";
+        // font-family: Cormorant-Regular,  YuMincho, "Hiragino Mincho ProN",  serif;
+        z-index: -1;
+    }
+    
+    
+    
+    // mid-section
+    .mid-section{
+        padding: 30px 40px 125px 40px;
+        background: #F0F0F0;
+    }
+    
+    .service-title{
+        margin: .5em 0em 2em .5em;
+        font-size: 1.7em;
+        letter-spacing: .115em;
+    }
+    
+    .service-contents{
+        padding: 7px 0;
+        display: block;
+    
+    }
+    
+    
+    .service-description{
+        font-size: .84em;
+        width: 90%;
+        line-height: 1.9em;
+        letter-spacing: .1em;
+        margin: auto;
+        padding-top: 15px;
+    }
+    
+    .service{
+        margin-left: 0;
+        padding: 20px 0;
+    }
+    
+    
+    
+    // mid2-section
+    .mid2-section{
+        padding: 6em .3em;
+        letter-spacing: .02em;
+        height: 600px;
+        color: white;
+    }
+    
+    .about-us-title{
+        font-size: 1.34em;
+        letter-spacing: .115em;
+        padding-left: 13%;
+        margin-bottom: 5%;
+    }
+    
+    
+    .about-us-table{
+        display: table;
+        border-collapse: collapse;
+        width: 70%;
+        margin: auto;
+        table-layout: fixed;
+        font-size: 1.15em;
+    }
+    
+    .about-us-tbdy{
+        display: table-row-group;
+        border-collapse: collapse;
+        letter-spacing: .04em;
+    }
+    
+    .about-us-table tr{
+        display: table-row;
+        height: 44px;
+        width: 100%;
+        table-layout: fixed;
+    }
+    
+    .about-us-table td{
+    }
+    
+    .td-title{
+        font-size: 0.98em;
+    }
+    
+    .td-item{
+        font-size: .79em;
+        padding-left: 22px;
+    }
+    
+    
+    // footer
+    
+    footer{
+        height: auto;
+        padding: 7%;
+        background-color: #F0F0F0;
+    }
+    
+    .footer-wrapper{
+        width: 81%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer-ul-wrapper{
+        align-items: center;
+        width: 100%;
+    }
+    
+    .footer-ul{
+        list-style: none;
+        float: left;
+        font-size: .75em;
+        padding: 0;
+    }
+    
+    .footer-ul li{
+        float: right;
+        margin-right: 14px;
+    }
+    
+    .footer-ul li a{
+        color:#555555;
+    }
+    
+    .copyright{
+        font-size: .8em;
+        float: right;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    
+    
+    
+    
+    
+    // contact page
+    
+    .header-section{
+        height: 6em;
+        background-color: #F0F0F0;
+    
+    }
+    
+    .contact-header{
+        position: static;
+    }
+    
+    .contact-site-title{
+        color:#555555;
+    }
+    
+    .contact-top-section{
+        height: 26em;
+        margin-bottom: 5em;
+        background: image-url('background_building.jpg') no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+    
+    .contact-section h2{
+        text-align: left;
+        margin-bottom: 2.3em;
+    }
+    
+    .contact-section{
+        margin-bottom: 6em;
+    }
+    .contact-copy-wrapper{
+        height:100%;
+        position:relative;
+    }
+    
+    .contact-copy-wrapper h1{
+        position: absolute;
+        left: 10%;
+        bottom: 30%;
+        color: white;
+        letter-spacing: .1em;
+    }
+    
+    .contact-wrapper{
+        height: 65%;
+    }
+    
+    
+    .contact-form-wrapper{
+        width: 60%;
+        margin: auto;
+    }
+    
+    
+    .form-body{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .form-container{
+        display: table-row;  
+    }
+    
+    .form-container label{
+        display: block;
+        font-size: .9em;
+        margin-bottom: .2em;
+    }
+    
+    
+    .form-items{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .form-item{
+        display: table-cell;
+        vertical-align: top;
+    }
+    
+    .form-text-field{
+        height: 2em;
+        width: 23em;
+        margin: auto;
+        margin-bottom: 40px;
+        border: .45px solid rgba(0,0,0,.3);
+        border-radius: 4px;
+    }
+    
+    .form-text-area{
+        height: 12em;
+        width: 23em;
+        border: .45px solid rgba(0,0,0,.3);
+        border-radius: 4px;
+        
+    }
+    
+    .form-text{
+        height: 120px;
+    }
+    
+    .form-btn-wrapper{
+        box-sizing: border-box;
+        width: 152px;
+        float: right;
+        margin-top: 2em;
+    
+    }
+    
+    .form-btn{
+        background-color: #19BBDD;
+        border: none;
+        height: 33px;
+        width: 55px;
+        color: white;
+        border-radius: 5px;
+        float: right;
+    
+    }
+    
+    .form-submit-item{
+        float:right;
+    }
+}
+
+
